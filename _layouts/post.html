@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  </head>
+  <body {% if page.is_blog %}class="blog-page"{% endif %}>
+    <nav>
+      <a href="/index/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/read/">Reads</a>
+      <a href="/blog/">Blogs</a>
+    </nav>
+
+    <section class="post-container">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.date %}
+        <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
+
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </section>
+
+    {% if page.url == "/" %}
+      <div class="social-icons" style="text-align: center; margin-top: 20px;">
+        <a href="https://www.instagram.com/seriouslyshalvi/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.goodreads.com/user/show/187333852-shalvi-shrivastava" target="_blank">
+          <i class="fab fa-goodreads"></i>
+        </a>
+      </div>
+    {% endif %}
+  </body>
+</html>

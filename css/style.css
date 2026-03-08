@@ -1,0 +1,174 @@
+/* ==================== Basic Reset ==================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==================== Body Style ==================== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF8F0;
+  color: #5D4037;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ==================== Headings ==================== */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* ==================== Links ==================== */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a.post-link {
+  color: #5D4037;
+}
+a.post-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ==================== Social Icons ==================== */
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #5a3e36;
+}
+.social-icons a:hover {
+  color: #d2691e;
+}
+
+/* ==================== Paragraphs ==================== */
+p {
+  margin-bottom: 100px;
+  line-height: 1.7;
+}
+
+/* ==================== Container ==================== */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ==================== Buttons ==================== */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* ==================== Form Elements ==================== */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ==================== Navigation ==================== */
+nav {
+  background-color: #FFD9DB;
+  padding: 10px;
+}
+nav a {
+  color: #5D4037;
+  margin-right: 15px;
+}
+
+/* ==================== Footer ==================== */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #FFD9DB;
+}
+
+/* ==================== Blog Page List ==================== */
+.blog-page .post-content {
+  text-align: left;       /* left-align blog list */
+  max-width: 700px;       /* center block */
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.blog-page .post-content ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.blog-page .post-content a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+/* ==================== Post Container ==================== */
+.post-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;     /* single posts centered by default */
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  text-align: left;       /* body left-aligned inside centered column */
+}
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* ==================== Blog List ==================== */
+.blog-list {
+  text-align: left;       /* left-align list text */
+  max-width: 700px;
+  margin: 0 auto;         /* keep block centered */
+  padding: 2rem 1rem;
+}
+
+.blog-list ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.post-list {
+  list-style: circle;
+  padding: 0;
+}
+
+.post-list li {
+  margin: 1rem 0;
+  text-align: left;
+}
