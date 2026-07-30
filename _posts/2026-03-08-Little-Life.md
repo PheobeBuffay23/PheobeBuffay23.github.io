@@ -3,7 +3,7 @@ layout: post
 title: A Little Life 
 permalink: /ALittleLife/
 categories: [read]
-cover: "/assets/books/ALittleLife.png"
+cover: "/assets/books/Alittlelife.png"
 rating: 4
 --- 
 A Little Life is written by Hanya Yanagihara. It is about 700+ pages long.
